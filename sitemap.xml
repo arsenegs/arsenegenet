@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://arsenegenet.com/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://arsenegenet.com/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arsenegenet.com/index-en.html"/>
+  </url>
+  <url>
+    <loc>https://arsenegenet.com/index-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://arsenegenet.com/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arsenegenet.com/index-en.html"/>
+  </url>
+  <url>
+    <loc>https://arsenegenet.com/portfolio.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://arsenegenet.com/portfolio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arsenegenet.com/portfolio-en.html"/>
+  </url>
+  <url>
+    <loc>https://arsenegenet.com/portfolio-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://arsenegenet.com/portfolio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arsenegenet.com/portfolio-en.html"/>
+  </url>
+</urlset>
