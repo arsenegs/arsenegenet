@@ -4,9 +4,9 @@
 
 - `index.html` / `index-en.html` — page d'accueil (FR / EN) : carrousel photo, à propos, matériel
 - `portfolio.html` / `portfolio-en.html` — grille des productions (FR / EN)
-- `style.css` — tout le design (thème blanc, menu latéral, couleurs, typographies)
-- `script.js` — fait tourner le carrousel de la page d'accueil et gère les vignettes du portfolio quand une photo manque encore
-- `cv.pdf` — **à ajouter vous-même** (voir plus bas)
+- `style.css` — tout le design (thème blanc, menu latéral, couleurs, police Montserrat)
+- `script.js` — carrousel de la page d'accueil, filtres du portfolio (Fiction / Documentaire…) et vignettes de secours quand une photo manque
+- `robots.txt`, `sitemap.xml`, `favicon.svg` — référencement et icône d'onglet
 
 ## Photos à ajouter
 
@@ -20,8 +20,9 @@ qu'une fois les images ajoutées.
 
 Créez un dossier `images/` à côté des fichiers `.html`, avec :
 
-**Carrousel de la page d'accueil** (4 photos, format large, ex. 1600×900) :
+**Carrousel de la page d'accueil** (5 photos, format large, ex. 1600×900) :
 ```
+images/hero-cordes-au-coeur.jpg   (première diapo)
 images/hero-1.jpg
 images/hero-2.jpg
 images/hero-3.jpg
@@ -44,24 +45,22 @@ images/portfolio/ca-rec.jpg
 images/portfolio/moonwalk.jpg
 images/portfolio/sexy-soucis.jpg
 images/portfolio/thank-you-and-goodnight.jpg
+images/portfolio/cordes-au-coeur.jpg
+images/portfolio/menteuses.jpg
+images/portfolio/les-filles-du-roy.jpg
 ```
 
-Pour le CV : renommez votre fichier en `cv.pdf` et placez-le à côté des
-fichiers `.html`.
+## Ajouter un projet
 
-## Ce qu'il reste à vérifier
+Dans `portfolio.html` (FR) **et** `portfolio-en.html` (EN), copiez une carte
+existante en tête de grille. L'attribut `data-cat` de la carte détermine dans
+quel filtre elle apparaît : `fiction`, `documentaire` ou `emissions`.
 
-- Le lien du projet « Thank You and Goodnight » pointe pour l'instant vers
-  `#` (aucune page externe pour l'instant) — dites-moi le lien à utiliser
-  une fois disponible (site du diffuseur, bande-annonce...)
-- Le statut « En production » de certaines productions date peut-être —
-  vérifiez si certaines sont sorties depuis
-- Les liens « Voir le projet » du carrousel et les vignettes du portfolio
-  pointent pour l'instant vers `#` / la page portfolio — dites-moi si vous
-  voulez qu'ils mènent vers une fiche détaillée par projet, une bande-annonce,
-  ou le site du diffuseur
-- Le menu latéral passe en bandeau horizontal sur mobile — à tester sur
-  votre téléphone une fois en ligne
+Pour un poste autre que chef opérateur du son (ex. 2e assistant son), ajoutez
+dans la vignette `<span class="role-badge">2<sup>e</sup> assistant son</span>`
+(voir la carte « Les Filles du Roy »). Une carte sans lien peut être une `<div>` au lieu d'un `<a>`.
+Pour le carrousel,
+ajoutez une diapo (et un point) dans `index.html` et `index-en.html`.
 
 ## Voir le site en local
 

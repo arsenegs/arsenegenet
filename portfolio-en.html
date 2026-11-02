@@ -46,83 +46,108 @@
     <section style="padding-top:64px;">
       <div class="wrap">
         <p class="section-label">PORTFOLIO</p>
-        <p class="log-intro">Recent productions, as sound recordist / sound supervisor.</p>
+        <p class="log-intro">Recent productions, as sound recordist / sound supervisor — from documentary to fiction.</p>
+
+        <div class="filters" role="group" aria-label="Filter productions" hidden>
+          <button type="button" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" data-filter="fiction" aria-pressed="false">Fiction</button>
+          <button type="button" data-filter="documentaire" aria-pressed="false">Documentary</button>
+          <button type="button" data-filter="emissions" aria-pressed="false">Shows &amp; web</button>
+        </div>
 
         <div class="port-grid">
 
-          <a class="port-card" href="https://thankyouandgoodnight.be/" target="_blank" rel="noopener">
-            <div class="port-thumb"><img src="images/portfolio/thank-you-and-goodnight.jpg" alt="Thank You and Goodnight"></div>
-            <h3>DocLab RTBF</h3>
-            <p class="meta">Short documentary — 25 min — 2026 — ThankYouAndGoodNight Production — <span class="status">In production</span></p>
+          <a class="port-card" data-cat="fiction" href="https://www.instagram.com/heritage_films/" target="_blank" rel="noopener">
+            <div class="port-thumb"><img src="images/portfolio/cordes-au-coeur.jpg" alt="Cordes au Cœur"></div>
+            <h3>Cordes au Cœur</h3>
+            <p class="meta">Fiction short film, musical comedy — 15 min — 2026 — Dir. Axel Würsten — Héritage Films — <span class="status">In production</span></p>
           </a>
 
-          <a class="port-card" href="https://nikanprod.com/" target="_blank" rel="noopener">
+          <a class="port-card" data-cat="documentaire" href="https://program33.com/" target="_blank" rel="noopener">
+            <div class="port-thumb"><img src="images/portfolio/menteuses.jpg" alt="Menteuses !"></div>
+            <h3>Menteuses !</h3>
+            <p class="meta">Documentary — 52 min — 2026 — Dir. Julien Hillion — Program33 — <span class="status">In production</span></p>
+          </a>
+
+          <a class="port-card" data-cat="documentaire" href="https://thankyouandgoodnight.be/" target="_blank" rel="noopener">
+            <div class="port-thumb"><img src="images/portfolio/thank-you-and-goodnight.jpg" alt="Anti K"></div>
+            <h3>Anti K</h3>
+            <p class="meta">Short documentary — 25 min — 2026 — Dir. Audrey Nzinga &amp; Ilayda Passero — ThankYouAndGoodNight Production (DocLab RTBF) — <span class="status">In production</span></p>
+          </a>
+
+          <div class="port-card" data-cat="fiction">
+            <div class="port-thumb"><img src="images/portfolio/les-filles-du-roy.jpg" alt="Les Filles du Roy"><span class="role-badge">2<sup>nd</sup> sound assistant</span></div>
+            <h3>Les Filles du Roy</h3>
+            <p class="meta">Fiction feature film — 2026 — Dir. Pascal Plante — Avenue B Production — <span class="status">In production</span></p>
+          </div>
+
+          <a class="port-card" data-cat="documentaire" href="https://nikanprod.com/" target="_blank" rel="noopener">
             <div class="port-thumb"><img src="images/portfolio/guardians-of-the-land.jpg" alt="Guardians of the Land"></div>
             <h3>Guardians of the Land</h3>
-            <p class="meta">Documentary series — 6 x 52 min — 2025 — Nikan Production — <span class="status">In production</span></p>
+            <p class="meta">Documentary series — 6 x 52 min — 2025 — Dir. Kim O'Bomsawin — Nikan Production — <span class="status">In production</span></p>
           </a>
 
-          <a class="port-card" href="https://www.parafilms.com/" target="_blank" rel="noopener">
+          <a class="port-card" data-cat="documentaire" href="https://www.parafilms.com/" target="_blank" rel="noopener">
             <div class="port-thumb"><img src="images/portfolio/les-enfants-du-fleuve.jpg" alt="Les Enfants du Fleuve"></div>
             <h3>Les Enfants du Fleuve</h3>
-            <p class="meta">Documentary — 52 min — 2025 — Parafilms — <span class="status">In production</span></p>
+            <p class="meta">Documentary — 90 min — 2025 — Dir. Noé Sardet — Parafilms — <span class="status">In production</span></p>
           </a>
 
-          <a class="port-card" href="https://www.youtube.com/watch?v=QeYa-veN5Dw" target="_blank" rel="noopener">
+          <a class="port-card" data-cat="documentaire" href="https://www.youtube.com/watch?v=QeYa-veN5Dw" target="_blank" rel="noopener">
             <div class="port-thumb"><img src="images/portfolio/le-serment-dhippocrate.jpg" alt="Le Serment d'Hippocrate"></div>
             <h3>Le Serment d'Hippocrate</h3>
-            <p class="meta">Documentary — 52 min — 2025 — Nadiaz Production</p>
+            <p class="meta">Documentary — 90 min — 2024–2025 — Dir. Nadia Zouaoui — Nadiaz Production</p>
           </a>
 
-          <a class="port-card" href="https://nikanprod.com/realisations/voyager-le-nord/" target="_blank" rel="noopener">
+          <a class="port-card" data-cat="documentaire" href="https://nikanprod.com/realisations/voyager-le-nord/" target="_blank" rel="noopener">
             <div class="port-thumb"><img src="images/portfolio/go-north.jpg" alt="Go North"></div>
             <h3>Go North</h3>
-            <p class="meta">Documentary series — 6 x 52 min — 2024 — Nikan Production</p>
+            <p class="meta">Documentary series — 6 x 52 min — 2024 — Dir. Kim O'Bomsawin — Nikan Production</p>
           </a>
 
-          <a class="port-card" href="https://www.extjour.com/adonis" target="_blank" rel="noopener">
+          <a class="port-card" data-cat="documentaire" href="https://www.extjour.com/adonis" target="_blank" rel="noopener">
             <div class="port-thumb"><img src="images/portfolio/adonis.jpg" alt="Adonis"></div>
             <h3>Adonis</h3>
-            <p class="meta">Documentary — 52 min — 2023 — Extérieur Jour — <span class="status">3 Gémeaux Awards</span></p>
+            <p class="meta">Documentary — 90 min — 2023 — Dir. Jérémie Battaglia — Extérieur Jour — Télé-Québec — <span class="status">3 Gémeaux Awards</span></p>
           </a>
 
-          <a class="port-card" href="https://couperlecordon.productionscolorees.com/" target="_blank" rel="noopener">
+          <a class="port-card" data-cat="documentaire" href="https://couperlecordon.productionscolorees.com/" target="_blank" rel="noopener">
             <div class="port-thumb"><img src="images/portfolio/couper-le-cordon.jpg" alt="Couper le Cordon"></div>
             <h3>Couper le Cordon</h3>
-            <p class="meta">Documentary — 52 min — 2023–2024 — Productions Colorées</p>
+            <p class="meta">Documentary — 90 min — 2023–2024 — Dir. Émilie Porry — Productions Colorées</p>
           </a>
 
-          <a class="port-card" href="https://majorproductions.ca/production/sweetgrass/" target="_blank" rel="noopener">
+          <a class="port-card" data-cat="documentaire" href="https://majorproductions.ca/production/sweetgrass/" target="_blank" rel="noopener">
             <div class="port-thumb"><img src="images/portfolio/sweetgrass.jpg" alt="Sweetgrass"></div>
             <h3>Sweetgrass</h3>
-            <p class="meta">Feature documentary — 2023 — Major Production — <span class="status">In production</span></p>
+            <p class="meta">Documentary — 90 min — 2023–2024 — Dir. Melissa Major — Major Production — <span class="status">In production</span></p>
           </a>
 
-          <a class="port-card" href="https://www.lesfilmsdici.fr/fr/en-production/5198-hyper-lieux-les-nouvelles-geographies-de-la-mondialisation.html" target="_blank" rel="noopener">
+          <a class="port-card" data-cat="documentaire" href="https://www.lesfilmsdici.fr/fr/en-production/5198-hyper-lieux-les-nouvelles-geographies-de-la-mondialisation.html" target="_blank" rel="noopener">
             <div class="port-thumb"><img src="images/portfolio/hyperlieux.jpg" alt="Hyperlieux"></div>
             <h3>Hyperlieux</h3>
-            <p class="meta">Documentary series — 6 x 26 min — 2023 — Les Films d'Ici</p>
+            <p class="meta">Documentary series — 6 x 26 min — 2022 — Les Films d'Ici — Arte</p>
           </a>
 
-          <a class="port-card" href="https://www.youtube.com/@tesrefait/videos" target="_blank" rel="noopener">
+          <a class="port-card" data-cat="fiction" href="https://www.youtube.com/@tesrefait/videos" target="_blank" rel="noopener">
             <div class="port-thumb"><img src="images/portfolio/tes-refait.jpg" alt="T'es refait"></div>
             <h3>T'es refait</h3>
-            <p class="meta">Fiction mini-series — 30 x 1 min — 2022 — Métronome Vidéo</p>
+            <p class="meta">Web docu-fiction series — 30 x 1 min — 2022 — Dir. Mathias Monnet — Métronome Vidéo</p>
           </a>
 
-          <a class="port-card" href="https://www.france.tv/slash/ca-rec/" target="_blank" rel="noopener">
+          <a class="port-card" data-cat="emissions" href="https://www.france.tv/slash/ca-rec/" target="_blank" rel="noopener">
             <div class="port-thumb"><img src="images/portfolio/ca-rec.jpg" alt="Ça rec"></div>
             <h3>Ça rec</h3>
-            <p class="meta">Documentary mini-series — 5 x 20 min — 2022 — France TV Slash</p>
+            <p class="meta">Web show — 5 x 20 min — 2021–2022 — Dir. Camelia Kheiredine — France TV Slash</p>
           </a>
 
-          <a class="port-card" href="https://www.france.tv/slash/moonwalk/" target="_blank" rel="noopener">
+          <a class="port-card" data-cat="emissions" href="https://www.france.tv/slash/moonwalk/" target="_blank" rel="noopener">
             <div class="port-thumb"><img src="images/portfolio/moonwalk.jpg" alt="Moonwalk"></div>
             <h3>Moonwalk</h3>
-            <p class="meta">TV show — 5 x 20 min — 2022 — France TV Slash</p>
+            <p class="meta">Web show — 5 x 20 min — 2021–2022 — Dir. Oumar Diawara — France TV Slash</p>
           </a>
 
-          <a class="port-card" href="https://www.france.tv/slash/sexy-soucis/" target="_blank" rel="noopener">
+          <a class="port-card" data-cat="emissions" href="https://www.france.tv/slash/sexy-soucis/" target="_blank" rel="noopener">
             <div class="port-thumb"><img src="images/portfolio/sexy-soucis.jpg" alt="Sexy Soucis"></div>
             <h3>Sexy Soucis</h3>
             <p class="meta">Shorts — 100 x 5 min — 2022 — France TV Slash</p>

@@ -42,3 +42,27 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
+
+// ---- filtres du portfolio (Tout / Fiction / Documentaire / ...) ----
+// La barre de filtres est cachée dans le HTML ; elle n'apparaît que si le
+// JavaScript fonctionne, pour qu'un visiteur sans JS voie simplement toute la liste.
+document.addEventListener('DOMContentLoaded', function () {
+  var bar = document.querySelector('.filters');
+  if (!bar) return;
+  var buttons = bar.querySelectorAll('button');
+  var cards = document.querySelectorAll('.port-card');
+  bar.hidden = false;
+
+  buttons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var cat = btn.getAttribute('data-filter');
+      buttons.forEach(function (b) {
+        b.setAttribute('aria-pressed', b === btn ? 'true' : 'false');
+      });
+      cards.forEach(function (card) {
+        var cats = (card.getAttribute('data-cat') || '').split(' ');
+        card.hidden = !(cat === 'all' || cats.indexOf(cat) !== -1);
+      });
+    });
+  });
+});
